@@ -1,3 +1,6 @@
+import datetime
+now = datetime.datetime.now()
+hour = now.hour
 
 nev = 'Béla'
 
@@ -10,4 +13,9 @@ while bemenet != nev:
 
 
 if bemenet == nev:
-    print("Szép estét, Béla!")
+    if hour < 12:
+        print("Szép reggelt, Béla!")
+    elif hour < 18:
+        print("Szép délelőttöt, Béla!")
+    else:
+        print("Szép estét, Béla!")
