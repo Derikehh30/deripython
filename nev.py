@@ -16,6 +16,6 @@ if bemenet == nev:
     if hour < 12:
         print("Szép reggelt, Béla!")
     elif hour < 18:
-        print("Szép délelőttöt, Béla!")
+        print("Szép délelutánt, Béla!")
     else:
         print("Szép estét, Béla!")
